@@ -1,0 +1,10 @@
+refFile1	refFile2
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_1.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_1.wav
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_10.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_10.wav
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_11.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_11.wav
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_12.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_12.wav
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_13.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_13.wav
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_14.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_14.wav
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_15.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_15.wav
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_16.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_16.wav
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/stam/tempAudio_17.wav	https://vocalemotions.blob.core.windows.net/vocalpublic/atags/stam/tempAudio_17.wav

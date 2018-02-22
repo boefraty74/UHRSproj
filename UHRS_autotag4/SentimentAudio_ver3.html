@@ -1,0 +1,171 @@
+<html>
+<head>
+    <script type="text/javascript">
+    //////////////////////////////////// Begin of system functions /////////////////////////////////////////////////
+var startTime;
+	function xPlate_GoForward() {
+       var control = top.document.getElementById('silverlightControl');
+       control.Content.MainPage.GoForwardFromJavascript();            
+};
+function xPlate_Skip() {            
+      var control = top.document.getElementById('silverlightControl');
+      control.Content.MainPage.SkipFromJavascript();            
+};
+function xPlate_GoBack() {       
+       var control = top.document.getElementById('silverlightControl');
+       control.Content.MainPage.GoBackFromJavascript();            
+};
+function xPlate_Validate() {    
+        return true  &&  isOneChecked()  && isTimeGood();
+};
+function xPlate_OnLoad() {
+startTime = new Date();
+};
+
+function isTimeGood()
+{
+  var stopTime = new Date();
+  var delta = 5 * 1000;
+  if(stopTime - startTime < delta){
+    alert('We would appreciate if you review the content completely');
+    return false;
+  }
+	return true;
+};
+//////////////////////////////////// End of system functions ///////////////////////////////////////////////
+function xPlate_SetJudgmentDataInt(i) {
+    var control = top.document.getElementById('silverlightControl');
+    control.Content.MainPage.SetJudgmentDataIntFromJavascript('', i);
+};
+function Submit(i) {
+    xPlate_SetJudgmentDataInt(i);
+};
+
+
+
+function isOneChecked() {
+  // All <input> tags...
+  var chx = document.getElementsByTagName('input');
+  for (var i=0; i<chx.length; i++) {
+    // If you have more than one radio group, also check the name attribute
+    // for the one you want as in && chx[i].name == 'choose'
+    // Return true from the function on first match of a checked item
+    if (chx[i].type == 'radio' && chx[i].checked) {
+      return true;
+    } 
+  }
+  // End of the loop, return false
+   alert('You have not answered the question:\nWhat is the emotion? ');
+   return false;
+  
+}
+
+
+
+
+
+    </script>
+</head>
+<body style="width:100%;height:100%;margin:0px;overflow:auto">
+<style type="text/css" id="base_style">
+body {
+       font-family: "Segoe UI", Arial, Sans-Serif;
+       font-size: 12pt;
+       margin: 0.2em;
+}
+
+/* Large headers */
+h1 {
+       font-size: 2.0em;
+       /* Bing orange */
+       color: rgb(255, 166, 21);
+}
+
+/* For buttons - must use class="button" */
+input.button {
+       background-color: rgb(0, 109, 212);
+       color: white;
+       font-size: 1.2em;
+       margin: 0.5em;
+       padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+/* Move textarea to display as block */
+textarea {
+       display: block;
+       clear: both;
+}
+
+/* Horizontal HitApp Creator block */
+.lyt_h {
+       clear: both;
+       margin: 1em;
+}
+.lyt_el {
+}
+.lyt_lr {
+       position: relative;
+}
+.lyt_left {
+       float: left;
+       width: 50%;
+}
+.lyt_right {
+       float: right;
+       width: 50%;
+}
+.lyt_tb {
+}
+.lyt_tb .lyt_top {
+}
+.lyt_tb .lyt_bottom {
+       clear: both;
+}
+</style>
+
+  <h1 id="TextDisplay1_h">Emotion Labeling</h1>
+
+<div id="TextDisplay1_txt">
+Please click play and listen to the speech clip. 
+<br/>
+
+<audio controls=""><source src="{File.mp3}" type="audio/mpeg">
+<br/>
+
+
+<br/></div>
+
+<br>
+
+Evaluate the voice emotion:
+<br>
+<input id=rating1 name=RelevanceRating onclick=Submit(1); type=radio value=Angry> Angry
+<br>
+<input id=rating2 name=RelevanceRating onclick=Submit(2); type=radio value=Sad> Sad
+<br>
+<input id=rating3 name=RelevanceRating onclick=Submit(3); type=radio value=Neutral> Neutral
+<br>
+<input id=rating4 name=RelevanceRating onclick=Submit(4); type=radio value=Positive> Positive
+<br>
+<input id=rating5 name=RelevanceRating onclick=Submit(5); type=radio value=Unknown> Unknown
+<br>
+<br>
+Click on all cases that apply after the second question. 
+<br>
+<input id=NotConfident type=checkbox value=NotConfident> I am NOT confident
+<br>
+<input id=IsNonNative type=checkbox value=IsNonNative> I do not understand the language
+<br>
+<input id=IsNoisy type=checkbox value=IsNoisy> Too noisy for confident decision
+<br>
+<input id=TooShort type=checkbox value=TooShort> Too short for confident decision
+<br>
+<input id=NotSpeech type=checkbox value=NotSpeech> This is not a speech segment
+<br>
+<br>
+Add optional comments: <br>
+<textarea id=comments name=comments rows="5" cols="20"></textarea>
+<br>
+
+</body>
+</html>

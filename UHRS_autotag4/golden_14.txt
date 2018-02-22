@@ -1,0 +1,15 @@
+File.mp3	@RealTimeAuditJudgmentDataInt	@RealTimeAuditComment
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/neg/tempAudio_114.wav	2	angry,sad*,neut,pos,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/neg/tempAudio_124.wav	2	angry,sad*,neut,pos,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/neg/tempAudio_16.wav	2	angry,sad*,neut,pos,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/neg/tempAudio_37.wav	2	angry,sad*,neut,pos,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/neg/tempAudio_55.wav	2	angry,sad*,neut,pos,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/neg/tempAudio_60.wav	2	angry,sad*,neut,pos,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/neu/tempAudio_17.wav	3	angry,sad,neut*,pos,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/neu/tempAudio_29.wav	3	angry,sad,neut*,pos,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/pos/tempAudio_10_pos.wav	4	angry,sad,neut,pos*,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/pos/tempAudio_19_pos.wav	4	angry,sad,neut,pos*,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/pos/tempAudio_1_pos.wav	4	angry,sad,neut,pos*,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/pos/tempAudio_1pos.wav	4	angry,sad,neut,pos*,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/pos/tempAudio_28pos.wav	4	angry,sad,neut,pos*,unknown
+https://storageboefraty.blob.core.windows.net/mycontainerpublic/atags/golden/pos/tempAudio_7_pos.wav	4	angry,sad,neut,pos*,unknown
